@@ -18,7 +18,19 @@
  */
 
  class Blockchain {
- 	
+ 	/*Suggested Block Structure:
+
+		{
+			index
+			timestamp
+			data
+			hash
+			previous_hash
+			proof
+		}
+ 		­­­ 
+ 	*/ 
+
  	constructor() {
  		this.chain = ­­[];
  		this.nodes = ­­[];
